@@ -2,7 +2,7 @@
 
 ## Data Structures Used
 
-**Array:**
+**1) Array:**
 The dictionary is stored in an array where each element represents a word entry.
 
 Example:
@@ -13,7 +13,7 @@ Example:
 ]
 ```
 
-**Object:**
+**2) Object:**
 Each word is stored as an object containing:
 
 * `word` – the dictionary word
@@ -24,13 +24,13 @@ Each word is stored as an object containing:
 
 ## Logic and Approach
 
-**Add Word:**
+**1) Add Word:**
 Prompts the user to enter a word and definition. The program checks if the word already exists before adding it to the dictionary.
 
-**Search Word:**
+**2) Search Word:**
 Loops through the dictionary array to find a matching word. If found, it displays the word, its definition, and increases the search frequency.
 
-**Suggestions:**
+**3) Suggestions:**
 While typing in the search box, the program suggests words that start with the typed letters. Suggestions are sorted by highest frequency and only the top 3 are displayed.
 
 ---
