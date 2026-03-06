@@ -62,8 +62,10 @@ let suggestWords=()=>{
         return y.frequency-x.frequency
         })
         suggestions=suggestions.slice(0, 3)
-        let result=suggestions.map(item=>item.word).join("<br>")
+        let result=suggestions.map(item=>item.word+" ("+ item.frequency+")").join("<br>")
         document.getElementById("suggestions").innerHTML=result;
     }
 }
+
+
 
